@@ -1,0 +1,19 @@
+version: '3.8'
+
+services:
+  codersdiary:
+    container_name: codersdiary_app
+    build:
+      context: ../codersdiary-platform
+      dockerfile: Dockerfile
+    ports:
+      - "3000:3000"
+    restart: unless-stopped
+    environment:
+      - NODE_ENV=production
+    healthcheck:
+      test: ["CMD", "wget", "-qO-", "http://localhost:3000/"]
+      interval: 30s
+      timeout: 10s
+      retries: 3
+      start_period: 40s
