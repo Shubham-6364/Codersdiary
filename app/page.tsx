@@ -18,21 +18,21 @@ export const metadata: Metadata = {
 
 /* ── Data ── */
 const skills = [
-  { name: 'Cloud Platforms', icon: Cloud,      tags: ['AWS', 'Azure', 'GCP'],         color: '#3b82f6' },
+  { name: 'Cloud Platforms', icon: Cloud,      tags: ['AWS', 'Azure', 'GCP'],         color: '#f97316' },
   { name: 'Containers',      icon: Container,  tags: ['Docker', 'K8s', 'Helm'],       color: '#10b981' },
   { name: 'CI/CD',           icon: Settings,   tags: ['GitHub Actions', 'ArgoCD', 'Jenkins'], color: '#f59e0b' },
-  { name: 'IaC',             icon: Layers,     tags: ['Terraform', 'Ansible', 'Pulumi'], color: '#8b5cf6' },
+  { name: 'IaC',             icon: Layers,     tags: ['Terraform', 'Ansible', 'Pulumi'], color: '#fb923c' },
   { name: 'Linux & OS',      icon: Terminal,   tags: ['RHEL', 'Ubuntu', 'Shell'],     color: '#f43f5e' },
   { name: 'Observability',   icon: BarChart,   tags: ['Prometheus', 'Grafana', 'ELK'], color: '#06b6d4' },
-  { name: 'SRE & Reliability', icon: ShieldCheck, tags: ['SLOs', 'Runbooks', 'On-call'], color: '#a855f7' },
+  { name: 'SRE & Reliability', icon: ShieldCheck, tags: ['SLOs', 'Runbooks', 'On-call'], color: '#fbbf24' },
   { name: 'Security & DevSecOps', icon: Code, tags: ['Trivy', 'Falco', 'OPA'],       color: '#ec4899' },
 ]
 
 const certifications = [
   { name: 'AWS Solutions Architect',    issuer: 'Amazon Web Services',  color: '#f59e0b', abbr: 'SAA' },
-  { name: 'CKS — Kubernetes Security', issuer: 'CNCF / Linux Foundation', color: '#3b82f6', abbr: 'CKS' },
+  { name: 'CKS — Kubernetes Security', issuer: 'CNCF / Linux Foundation', color: '#f97316', abbr: 'CKS' },
   { name: 'RHCSA — Linux Admin',        issuer: 'Red Hat',              color: '#f43f5e', abbr: 'EX200' },
-  { name: 'Terraform Associate',        issuer: 'HashiCorp',            color: '#8b5cf6', abbr: 'TF' },
+  { name: 'Terraform Associate',        issuer: 'HashiCorp',            color: '#fb923c', abbr: 'TF' },
 ]
 
 const featuredCourses = courses.filter((c) => c.featured)
@@ -335,8 +335,8 @@ export default function HomePage() {
                   <Award size={22} color={cert.color} />
                 </div>
                 <div>
-                  <p className="cert-name">{cert.abbr}</p>
-                  <p className="cert-issuer">{cert.issuer}</p>
+                  <p className="cert-name">{cert.name}</p>
+                  <p className="cert-issuer">{cert.issuer} · {cert.abbr}</p>
                 </div>
               </li>
             ))}
