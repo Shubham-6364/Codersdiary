@@ -143,13 +143,13 @@ export default function HomePage() {
               </div>
 
               <div className="hero-social">
-                <a href="https://github.com/shubhamrajawat" target="_blank" rel="noopener noreferrer" className="hero-social-link" aria-label="GitHub profile">
+                <a href="https://github.com/Codersdiary" target="_blank" rel="noopener noreferrer" className="hero-social-link" aria-label="GitHub profile">
                   <Github size={16} aria-hidden="true" /> GitHub
                 </a>
-                <a href="https://linkedin.com/in/shubhamrajawat" target="_blank" rel="noopener noreferrer" className="hero-social-link" aria-label="LinkedIn profile">
+                <a href="https://www.linkedin.com/in/shubham-singh-rajawat-84227513a/" target="_blank" rel="noopener noreferrer" className="hero-social-link" aria-label="LinkedIn profile">
                   <Linkedin size={16} aria-hidden="true" /> LinkedIn
                 </a>
-                <a href="mailto:hello@codersdiary.online" className="hero-social-link" aria-label="Send email">
+                <a href="mailto:shubhamsinghrajawat@gmail.com" className="hero-social-link" aria-label="Send email">
                   <Mail size={16} aria-hidden="true" /> Email
                 </a>
               </div>
@@ -454,16 +454,16 @@ export default function HomePage() {
                 </p>
 
                 <div className="contact-links">
-                  <a href="mailto:hello@codersdiary.online" className="btn btn-primary" id="contact-email-btn">
+                  <a href="mailto:shubhamsinghrajawat@gmail.com" className="btn btn-primary" id="contact-email-btn">
                     <Mail size={16} aria-hidden="true" /> Get in Touch
                   </a>
                   <a href="/resume.pdf" download className="btn btn-secondary" id="contact-resume-btn">
                     <Download size={16} aria-hidden="true" /> Download Resume
                   </a>
-                  <a href="https://linkedin.com/in/shubhamrajawat" target="_blank" rel="noopener noreferrer" className="btn btn-secondary" id="contact-linkedin-btn">
+                  <a href="https://www.linkedin.com/in/shubham-singh-rajawat-84227513a/" target="_blank" rel="noopener noreferrer" className="btn btn-secondary" id="contact-linkedin-btn">
                     <Linkedin size={16} aria-hidden="true" /> LinkedIn
                   </a>
-                  <a href="https://github.com/shubhamrajawat" target="_blank" rel="noopener noreferrer" className="btn btn-secondary" id="contact-github-btn">
+                  <a href="https://github.com/Codersdiary" target="_blank" rel="noopener noreferrer" className="btn btn-secondary" id="contact-github-btn">
                     <Github size={16} aria-hidden="true" /> GitHub
                   </a>
                 </div>
@@ -513,7 +513,7 @@ export default function HomePage() {
                 YouTube
               </a>
               <a
-                href="https://linkedin.com/in/shubhamrajawat"
+                href="https://www.linkedin.com/in/shubham-singh-rajawat-84227513a/"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="cd-banner-link"
@@ -524,7 +524,7 @@ export default function HomePage() {
                 LinkedIn
               </a>
               <a
-                href="https://github.com/shubhamrajawat"
+                href="https://github.com/Codersdiary"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="cd-banner-link"

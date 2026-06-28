@@ -388,10 +388,10 @@ export default function CoursesPage() {
                 <a href="https://youtube.com/@codersdiary" target="_blank" rel="noopener noreferrer" className="btn btn-secondary" id="instructor-youtube-btn" style={{ fontSize: '0.875rem', padding: '0.5rem 1.25rem' }}>
                   <Youtube size={16} aria-hidden="true" /> YouTube
                 </a>
-                <a href="https://linkedin.com/in/shubhamrajawat" target="_blank" rel="noopener noreferrer" className="btn btn-secondary" id="instructor-linkedin-btn" style={{ fontSize: '0.875rem', padding: '0.5rem 1.25rem' }}>
+                <a href="https://www.linkedin.com/in/shubham-singh-rajawat-84227513a/" target="_blank" rel="noopener noreferrer" className="btn btn-secondary" id="instructor-linkedin-btn" style={{ fontSize: '0.875rem', padding: '0.5rem 1.25rem' }}>
                   <Linkedin size={16} aria-hidden="true" /> LinkedIn
                 </a>
-                <a href="https://github.com/shubhamrajawat" target="_blank" rel="noopener noreferrer" className="btn btn-secondary" id="instructor-github-btn" style={{ fontSize: '0.875rem', padding: '0.5rem 1.25rem' }}>
+                <a href="https://github.com/Codersdiary" target="_blank" rel="noopener noreferrer" className="btn btn-secondary" id="instructor-github-btn" style={{ fontSize: '0.875rem', padding: '0.5rem 1.25rem' }}>
                   <Github size={16} aria-hidden="true" /> GitHub
                 </a>
               </div>
@@ -414,7 +414,7 @@ export default function CoursesPage() {
                 <a href="#catalog" className="btn btn-primary" id="cta-browse-btn">
                   <BookOpen size={16} aria-hidden="true" /> Browse All Courses
                 </a>
-                <a href="mailto:hello@codersdiary.online" className="btn btn-secondary" id="cta-contact-btn">
+                <a href="mailto:shubhamsinghrajawat24@gmail.com" className="btn btn-secondary" id="cta-contact-btn">
                   <Terminal size={16} aria-hidden="true" /> Contact Instructor
                 </a>
               </div>

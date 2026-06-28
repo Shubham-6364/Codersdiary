@@ -172,7 +172,7 @@ export default async function ProjectDetailPage({ params }: Props) {
                   Interested in what I can build for your team?
                 </p>
                 <a
-                  href="mailto:hello@codersdiary.online"
+                  href="mailto:shubhamsinghrajawat@gmail.com"
                   className="btn btn-primary"
                   id="project-contact-btn"
                   style={{ width: '100%', justifyContent: 'center' }}
